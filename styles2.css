@@ -1,0 +1,33 @@
+input[type=text], select, textarea {
+  width: 98%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  resize: vertical;
+  outline: none;
+}
+
+input[type=text]:focus, textarea:focus, select:focus {
+  border: 1px solid #ff6f91;
+}
+
+
+input[type=submit] {
+  background-color: #ff6f91;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+.Container {
+  margin-left: 10px;
+}
+
+
