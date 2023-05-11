@@ -396,6 +396,25 @@ input[type=submit] {
     margin-left: 10px;
 }
 
+.checkmark h1 {
+    font-size: 75px;
+    color: #FF6F91;
+}
+
+#thanks {
+    font-size: 60px;
+}
+    
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 
 
 
