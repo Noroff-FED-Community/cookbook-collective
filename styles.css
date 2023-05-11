@@ -34,6 +34,12 @@ body {
     background: linear-gradient(-12deg, var(--clr-750), var(--clr-900));
 }
 
+footer {
+    border-top: 3px solid var(--clr-accent);
+    padding: .5rem; 
+    font-family: var(--ff-accent);
+}
+
 p {
     color: var(--clr-def);
 }
@@ -98,10 +104,6 @@ p {
 
 .logo:is(:hover, :focus) {
     transform: rotate(12deg)
-}
-
-.contact{
-    margin-left: 550px;
 }
     
 
@@ -357,12 +359,6 @@ p {
 .recipe-main {
     padding: 2rem;
     justify-content: left;
-}
-
-footer {
-    border-top: 3px solid var(--clr-accent);
-    padding: .5rem; 
-    font-family: var(--ff-accent);
 }
 
 .footer {
