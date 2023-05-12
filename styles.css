@@ -460,20 +460,20 @@ input[type=submit] {
 /* flex for text in success */
 .text-success {
     display: flex;
-    
+    margin-top: 20%;
 }
+    
+
 
 .connect {
-    flex: 5;
+    flex: 7;
+    margin-left: 17%;
+    
 }
 
 .homepage {
-    flex: 5;
+    flex:25%;
     
-}
-
-.socials {
-    display: inline;
 }
 
 
