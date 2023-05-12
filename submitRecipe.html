@@ -11,9 +11,7 @@
         rel="stylesheet"
         />
         <link rel="stylesheet" href="styles.css" />
-        <link rel="stylesheet" href="styles2.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Contact | The Cookbook Collective</title>
+        <title>Submit recipe | The Cookbook Collective</title>
     </head>
     <body>
         <header>
@@ -33,36 +31,36 @@
             <li><a href="desserts.html">Desserts</a></li>
             <li><a href="bakedGoods.html">Baked goods</a></li>
             <li class="current"><a href="contact.html">Contact</a></li>
-
-            
             </ul>
         </nav>
         </header>
         <main>
             <section id="recipe" class="recipe-wrap">
+                <h1>Submit recipe</h1>
+                <div class="Container">
+                  <form action="success.html" >
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
 
-              <div class="checkmark">
-                <h1>&check;</h1>
-                <h1 id="thanks">Thank you!</h1>
-                <div class="paragraph">
-                  <p>Thank you for contacting us. You will receive an autmoated email to confirm your message has been sent. We will be in touch in 1-3 business days.</p>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+
+                    <label for="category">Choose category</label>
+                    <select name="category" id="country">
+                      <option value="dinners">Dinners</option>
+                      <option value="desserts">Desserts</option>
+                      <option value="bakedGoods">Baked goods</option>
+                    </select>
+
+                    <label for="ingredients">Ingredients</label>
+                    <textarea name="ingredients" id="ingredients" placeholder="What you need.." cols="42" rows="9"></textarea>
+                    <label for="instructions">Instructions</label>
+                    <textarea name="instructions" id="instructions" placeholder="What you do.." cols="42" rows="9"></textarea>
+
+                    <input type="submit" value="Submit recipe" class="tile-link">
+                    
+                  </form>
                 </div>
-              </div>
-              <div class="text-success">
-                <div class="connect">
-                  <h3>Connect with us</h3>
-                    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com/" class="fa fa-twitter"></a>
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fa fa-youtube"></a>
-                    <a href="https://www.reddit.com" class="fa fa-reddit"></a>
-                    <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
-                </div>
-                <div class="homepage">
-                  <h3>Go to categories</h3>
-                  <a class="tile-link" href="index.html">Categories</a>
-                  
-                </div>
-              </div>
             </section>
         </main>
         <footer>
